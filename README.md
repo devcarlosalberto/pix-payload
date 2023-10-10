@@ -36,7 +36,6 @@ const myPayload = payload(data)
 
 Thats project has utilized following technologies:
 - Typescript
-- CRC
 
 
 ## 🔗 Links
