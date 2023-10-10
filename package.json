@@ -1,0 +1,29 @@
+{
+	"name": "pix-payload",
+	"version": "1.0.4",
+	"description": "Create the payload of a PIX to use in copy & paste, insert in QR Code and etc.",
+	"main": "./dist/index.js",
+	"types": "./dist/index.d.ts, ./dist/payload.class.d.ts",
+	"scripts": {
+		"dev": "nodemon ./src/index.ts",
+		"build": "tsc",
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/devcarlosalberto/pix-payload.git"
+	},
+	"author": "devcarlosalberto",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/devcarlosalberto/pix-payload/issues"
+	},
+	"homepage": "https://github.com/devcarlosalberto/pix-payload#readme",
+	"devDependencies": {
+		"@typescript-eslint/eslint-plugin": "^6.7.3",
+		"@typescript-eslint/parser": "^6.7.3",
+		"eslint": "^8.50.0",
+		"ts-node-dev": "^2.0.0",
+		"typescript": "^5.2.2"
+	}
+}
