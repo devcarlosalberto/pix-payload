@@ -10,7 +10,7 @@ Install the public package:
 ```bash
 npm i pix-payload
 ```
-## 👨‍💻 Example
+## 👨‍💻 How To Use
 
 ```javascript
 import { payload } from "pix-payload"
@@ -26,6 +26,20 @@ const data = {
 const myPayload = payload(data)
 ```
 
+The parameters when calling the payload() function are these and must be inside an object:
+
+`key: string`<br/>
+`name: string`<br/>
+`city: string`<br/>
+`amount?: number`<br/>
+`transactionId?: string`<br/>
+
+The values accepted as pix key are listed below and must follow the formatting pattern followed by their respective example:
+
+*CPF*: `12345678900`<br/>
+*CNPJ*: `00038166000105`<br/>
+*E-mail*: `fulano_da_silva.recebedor@example.com`<br/>
+*Phone*: `+5561912345678`<br/>
 
 ## 🕹️ Functions
 
