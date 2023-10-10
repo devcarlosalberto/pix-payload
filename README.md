@@ -42,6 +42,6 @@ Thats project has utilized following technologies:
 [![portfolio](https://img.shields.io/badge/my_portfolio-000?style=for-the-badge&logo=ko-fi&logoColor=white)](https://devcarlosalberto.netlify.app)
 [![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/devcarlosalberto)
 
-## Autores
+## Authors
 
 - [@devcarlosalberto](https://www.github.com/devcarlosalberto)
