@@ -46,7 +46,7 @@ export default class Payload {
 			}
 		}
 
-		return result.toString(16).toUpperCase()
+		return result.toString(16).toUpperCase().padStart(4, "0")
 	}
 
 	private padder(subject: number | string): string {
